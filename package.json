@@ -1,0 +1,16 @@
+{
+  "name": "lanceharman.com",
+  "version": "0.1.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lance Harman",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.9.11",
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0"
+  }
+}
