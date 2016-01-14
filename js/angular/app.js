@@ -36,6 +36,13 @@
 	});
 
 	jQuery(document).ready(function(){
+
+		jQuery('nav a').each(function(){
+			if (jQuery(this).attr('href') == location.href)
+				jQuery(this).addClass('active');
+		});
+
+
 		jQuery('nav a').click(function(e){
 			e.preventDefault();
 
